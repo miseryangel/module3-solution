@@ -1,0 +1,46 @@
+.body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.row-nav{
+    background-color:gray;
+    border:2px solid black;
+}
+.row-nav h1{
+    margin-top:20px;
+}
+.row-menu{
+    min-height:70px;
+    margin-top:30px;
+    font-style: bold;
+}
+.title{
+    text-align:center;
+    font-size: 2em;
+    font-style: bold;
+}
+
+.row-content{
+    background-color:gray;
+}
+.first-section{
+    background-color:gray;
+    min-height: 1000px;
+    margin:30px auto 30px auto;
+}
+.second-section,.third-section{
+    background-color:gray;
+}
+
+.collapse,.navbar-collapse{
+    background-color:blueviolet;
+    margin:0px;
+}    
+@media (min-width:600px) {
+.collapse,.navbar-collapse{
+    visibility: hidden;
+}    
+}
+.nav-item{
+    text-align:center;
+}
