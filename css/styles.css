@@ -44,3 +44,6 @@
 .nav-item{
     text-align:center;
 }
+.navbar-expand-sm{
+    padding-bottom:0px;
+}
